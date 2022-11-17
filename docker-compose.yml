@@ -7,3 +7,5 @@ services:
     restart: always
     environment:
       MARIADB_ROOT_PASSWORD: mariadb
+    ports:
+      - "3308:3308"
